@@ -56,7 +56,7 @@ public class DriverFactory {
 
         //Criando o driver para acessar elementos
         try{
-            driver = new AndroidDriver<MobileElement>(new URL("https://alefecvo:7fa14311-8336-4f1b-aa61-bb6cea1990d2@ondemand.us-west-1.saucelabs.com:443/wd/hub"),desiredCapabilities);
+            driver = new AndroidDriver<MobileElement>(new URL(""),desiredCapabilities);
         }catch (MalformedURLException e){
             e.printStackTrace();
         }

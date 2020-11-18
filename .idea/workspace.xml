@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ffa8355-0dd9-446d-8186-7423d8f3bb1e" name="Default Changelist" comment="" />
+    <list default="true" id="1ffa8355-0dd9-446d-8186-7423d8f3bb1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/DriverFactory.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/DriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="525">
+              <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#337#338#0" expanded="true" />
@@ -46,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/MovimentacaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="525">
               <caret line="35" column="55" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,6 +68,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,7 +99,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
     <option name="y" value="25" />
     <option name="width" value="1407" />
     <option name="height" value="809" />
@@ -101,6 +108,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,11 +174,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
   <component name="RecentsManager">
@@ -323,10 +331,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="25" width="1407" height="809" extended-state="0" />
+    <frame x="0" y="25" width="1407" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26446888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26813188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,10 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/MovimentacaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/DriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="55" />
+        <state relative-caret-position="525">
+          <caret line="54" column="59" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -474,7 +482,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
@@ -485,10 +493,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/DriverFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/MovimentacaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="525">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

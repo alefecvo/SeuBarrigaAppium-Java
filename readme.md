@@ -4,7 +4,7 @@ This project is used to automation test using Appium (Android) with Java.
 
 ## Dependencies
 
-Install the items
+#### Install the items
 
 1. IntelliJ (last version).
 2. Android Studio (last version).
@@ -12,32 +12,18 @@ Install the items
 4. Appium 1.18.3 (Start Server 1.18.3).
 
 ---
-Create AVD (android virtual device)
+#### Install SDK (software development kit)
 
 1. Open Android Studio.
-2. Create a new project.
-3. Clique in AVD to create device.
-4. Open terminal.
-5. Execute command.
-6. The device name is returned (example: Nexus_5X_API_27).
-```bash
-emulator -list-avds
-```
-
----
-To open the emulator
-1. Open terminal.
-2. Execute command
-```bash
-cd $ANDROID_HOME/tools
-emulator @Nexus_5X_API_27
-```
+2. Click in 'Configure -> SDK Manager'.
+3. On tab 'SDK Platforms' choose the "OS Android" and click in "Apply".
+4. On tab 'SDK Tools' choose the "Android SDK Build-Tools", "Android Emulator", "Android SDK Platform-Tools","Android SDK Tools", "Intel x86 Emulator Accelerator (HAXM installer)" and click in "Apply".
 
 ---
 
-Create or set environments variable:
+#### Create/edit environments variable:
 
-### MAC
+#### MAC
 
 - **JAVA HOME**
   - Configure the environments variables (Open .bash_profile)
@@ -50,24 +36,22 @@ Create or set environments variable:
       - export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools:$ANDROID_HOME/tools/Users/alefe/Library/Android/sdk/tools/bin/uiautomatorviewer
 
 ---
-### WINDOWS
+#### WINDOWS
 
 - **JAVA HOME**
   - Configure the environments variables (Control panel -> System -> Advanced configuration> Environment variables -> SYSTEM VARIABLES)
   - New
     - JAVA_HOME
-    - C:\Program Files\Java\jdk1.8.0_261 (onde o jdk foi instalado)
+    - C:\Program Files\Java\jdk1.8.0_261
   - Edit "PATH" adding:
-    - Editar "PATH" incluindo: 
-      - %JAVA_HOME%\bin;
+    - %JAVA_HOME%\bin;
   - Execute command "java -version" no CMD
 
 
 - **ANDROID HOME**
   - Configure the environments variables (Control panel -> System -> Advanced configuration> Environment variables -> SYSTEM VARIABLES)
   - New
-    - ANDROID_HOME (endereço)
-      - /Users/alefe/Library/Android/sdk
+    - ANDROID_HOME
       - C:\Ferramentas
   - Edit "PATH" adding:
     - %ANDROID_HOME%\tools;
@@ -82,21 +66,56 @@ Create or set environments variable:
         - emulator -list-avds
 
 ---
+#### Create AVD (android virtual device)
 
-## CTAppium.apk located in:
+1. Open Android Studio.
+2. Click in 'Configure -> AVD Manager'.
+3. Click in 'Create Virtual Device'.
+4. Choose the "Phone" and click in "Next".
+5. Choose the "AVD Name" and click in "Finish".
+6. Open terminal.
+7. Execute command.
+8. The device name is returned (example: Nexus_5X_API_27).
+```bash
+emulator -list-avds
+```
 
-To download the app, access the hierarchy.
+---
+
+#### Open the emulator
+1. Open terminal.
+2. Execute command
+```bash
+cd $ANDROID_HOME/tools
+emulator @Nexus_5X_API_27
+```
+
+---
+
+#### Open the search elements
+1. Open terminal.
+2. Execute command
+```bash
+cd $ANDROID_HOME/tools
+uiautomatorviewer
+```
+
+---
+
+## Download CTAppium.apk:
+
+#### To download the app, access the hierarchy.
 
 ```bash
 /Users/alefe/IdeaProjects/CourseAppium/src/main/resources
 ```
 
-To open locator in Appium.
+#### To open locator in Appium.
 1. Open Appium.
-2. Clique in 'Start Server'.
-3. Clique in Search.
-4. Clique in tab 'Automatic Server'.
-5. Clique in tab 'Desired Capabilities'.
+2. Click in 'Start Server'.
+3. Click in Search.
+4. Click in tab 'Automatic Server'.
+5. Click in tab 'Desired Capabilities'.
 6. Add the variables.
 
 ```json
@@ -109,13 +128,13 @@ To open locator in Appium.
  }
 ```
 
-7. Clique in 'Start Server'.
+7. Click in 'Start Server'.
 
 ---
 
 ## Run Tests:
 
-To download, get clone this project to your computer and execute the commands bellow:
+#### To download, get clone this project to your computer and execute the commands bellow:
 
 1. Open terminal.
 2. Execute cd 'to the your paste' (Ex: name_your_paste).

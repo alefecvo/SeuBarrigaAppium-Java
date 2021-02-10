@@ -15,8 +15,8 @@ public class DriverFactory {
 
     public static AndroidDriver<MobileElement> getDriver(){
         if(driver == null){
-            //createDriver();
-            createDriverSauceLabs();
+            createDriver();
+            //createDriverSauceLabs();
         }
         return  driver;
     }

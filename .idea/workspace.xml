@@ -5,23 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ffa8355-0dd9-446d-8186-7423d8f3bb1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SeuBarrigaAppium.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/core/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/core/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/ContaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/page/ContaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/page/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/page/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/MovimentacaoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/page/MovimentacaoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/ResumoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/page/ResumoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/ContaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/test/ContaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/test/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/MovimentacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/test/MovimentacaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/CTAppium_1_2.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CTAppium_1_2.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/core/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/ContaPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/MenuPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/MovimentacaoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/page/ResumoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/ContaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/alefecvo/appium/test/MovimentacaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/CTAppium_1_2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CTAppium_1_2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/core/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/core/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/core/DriverFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/page/ContaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/page/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/page/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/page/MenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/page/MovimentacaoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/page/ResumoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/test/ContaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/test/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/alefecvo/appium/test/MovimentacaoTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
